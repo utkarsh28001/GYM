@@ -1,0 +1,117 @@
+body{margin: 0px;
+    padding: 0px;
+    background-image: url("https://wallpapercave.com/wp/wp2639536.jpg");
+    color:white 
+    
+    
+}
+.left{
+    border: 0px solid white;
+    display: inline-block;
+    position: absolute;
+    left: 25px;
+    top: 26px;
+    text-align: center;
+
+}
+.left img{
+    width: 190px;
+    border-radius: 50px;
+}
+.left div{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    animation: aagepiche 2s linear infinite;
+}
+
+
+@keyframes aagepiche{
+    from{padding-left: 40px ;}
+    to {padding-right: 40px;}
+}
+
+.mid{
+    
+    display: block;
+    width: 52%;
+    margin: 25px auto;
+}
+
+
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 32px   ;
+
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black;    
+    color: beige;
+    padding: 19px 50px;
+    border: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Baloo Chettan 2', cursive;
+
+}
+
+.btn:hover{
+    background-color: beige;
+    color: black;
+}
+.navbar{
+    display: inline-block;
+    font-family: 'Baloo Chettan 2', cursive;
+    
+}
+.navbar li{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+}
+.navbar li a{
+  
+    text-decoration:none;
+    color: rgb(231, 219, 219);
+    padding: 27px 27px;
+   font-size: 25px;
+
+}
+.navbar li a:hover ,.navbar li a.active{
+    text-decoration: underlines;
+    color: rgb(12, 180, 49);
+}
+
+.container{
+    border: 2px solid white;
+    margin: 133px 52px;
+    padding: 65px 27px ;
+    width: 33%;
+    border-radius: 16px;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 348px;
+    padding: 8px;
+    border: 4px solid white;
+    margin: 6px auto;
+    font-size: 18px;
+    border-radius: 8px;
+
+}
+.container h1{
+    text-align: center;
+
+}
+.container button{
+    display: block;
+    margin: 15px auto;
+    width: 367px;
+    font-family: 'Baloo Chettan 2', cursive;
+
+}
